@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StealthOne.unity
     guid: 9a987bb78ab9a794281a906a52e42a64
+  - enabled: 1
+    path: Assets/Scenes/HideHay.unity
+    guid: d06203e5116cd6745a9eeb8417e396f6
+  - enabled: 1
+    path: Assets/Scenes/CowHouse.unity
+    guid: 251b91a8ee4775d40bf0af8b2deb36e0
   m_configObjects: {}
