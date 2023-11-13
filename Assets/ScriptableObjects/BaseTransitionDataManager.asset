@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ff44dda64df7145908ddf84f5b7d4b, type: 3}
+  m_Name: BaseTransitionDataManager
+  m_EditorClassIdentifier: 
+  currentDoorTransition: {fileID: 11400000, guid: a2d549402bf5b3f43a540a33200f77b7, type: 2}
+  transiting: 1
