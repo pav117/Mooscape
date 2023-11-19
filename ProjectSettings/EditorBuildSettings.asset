@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CowHouse.unity
     guid: 251b91a8ee4775d40bf0af8b2deb36e0
+  - enabled: 1
+    path: Assets/Scenes/Engineer.unity
+    guid: be491857c02e23d47af27405830e46b4
   m_configObjects: {}

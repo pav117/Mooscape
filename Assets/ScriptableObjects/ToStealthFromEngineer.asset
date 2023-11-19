@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1ff44dda64df7145908ddf84f5b7d4b, type: 3}
-  m_Name: BaseTransitionDataManager
+  m_Script: {fileID: 11500000, guid: d68fc83edcb158f478af96c95be7851f, type: 3}
+  m_Name: ToStealthFromEngineer
   m_EditorClassIdentifier: 
-  currentDoorTransition: {fileID: 0}
-  transiting: 0
+  doorName: StealthCamEntry2
+  targetSceneName: StealthOne
+  arrivalPosition: {x: 0.41, y: -3.52, z: 0}
+  arrivalRotation: {x: 0, y: 0, z: 0}
