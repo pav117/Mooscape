@@ -10,6 +10,8 @@ public class ChangeSceneTrigger : MonoBehaviour
     public TransitionData currentTransitionManager;
     private bool byDoor;
 
+    public AddTime addTime;
+
     void Update()
     {
         if (byDoor)
@@ -18,6 +20,14 @@ public class ChangeSceneTrigger : MonoBehaviour
             {
                 currentTransitionManager.currentDoorTransition = transitionInformation;
                 currentTransitionManager.transiting = true;
+
+                GameObject addTimeGameObject = GameObject.FindGameObjectWithTag("TimeManager");
+                addTime = addTimeGameObject.GetComponent<AddTime>();
+                if (addTime != null)
+                {
+                    addTime.score = addTime.score + 1;
+                    print(addTime.score);
+                }
 
                 SceneManager.LoadScene(transitionInformation.targetSceneName);
             }

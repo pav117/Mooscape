@@ -6,30 +6,29 @@ public class CowSpeak : MonoBehaviour
 {
     public GameObject MooznovS;
     public GameObject MooznovI;
-    public GameObject MoodsS;
-    public GameObject MoodsI;
-
-    public float sec = 3.0f;
 
     void Start()
     {
-        StartCoroutine(LateCall(sec));
+
     }
 
     public void whenButtonClicked()
     {
-        MooznovS.SetActive(true);
-        MooznovI.SetActive(true);
+        StartCoroutine(MooZSpeak());
+        StartCoroutine(MooZIcon());
     }
 
-    IEnumerator LateCall(float seconds)
+    public IEnumerator MooZSpeak()
     {
-        if (MooznovS.activeInHierarchy && MooznovI.activeInHierarchy)
-            MooznovI.SetActive(false);
+        MooznovS.SetActive(true);
+        yield return new WaitForSecondsRealtime(3);
+        MooznovS.SetActive(false);
+    }
 
-        if (MooznovS.activeInHierarchy && MooznovI.activeInHierarchy)
-            MooznovS.SetActive(false);
-
-        yield return new WaitForSeconds(seconds);
+    public IEnumerator MooZIcon()
+    {
+        MooznovI.SetActive(true);
+        yield return new WaitForSecondsRealtime(3);
+        MooznovI.SetActive(false);
     }
 }
