@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Engineer.unity
     guid: be491857c02e23d47af27405830e46b4
+  - enabled: 1
+    path: Assets/Scenes/BackToStartNoInv.unity
+    guid: 048ea259070c38340aa5a5ca06d5f65c
+  - enabled: 1
+    path: Assets/Scenes/CaughtWithInv.unity
+    guid: ef4fe7e7891433d44afab62fd3abc529
   m_configObjects: {}

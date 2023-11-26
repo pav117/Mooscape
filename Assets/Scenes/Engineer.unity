@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 335.7, y: -140.8}
+  m_AnchoredPosition: {x: 360.97, y: -157.17}
   m_SizeDelta: {x: 78.063, y: 75.6698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217099137
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 499984739}
   m_Layer: 0
   m_Name: Wrench Inv
-  m_TagString: Untagged
+  m_TagString: InvItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,7 +556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -184.59001}
+  m_AnchoredPosition: {x: -319.99997, y: -209.99998}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899788581
@@ -638,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000073314, y: -184.59}
+  m_AnchoredPosition: {x: -0.0000073314, y: -209.99998}
   m_SizeDelta: {x: 102.3836, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408827260
