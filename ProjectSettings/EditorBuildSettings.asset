@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Research.unity
     guid: 3136621e4c0688e4bb41743c3bd98337
+  - enabled: 1
+    path: Assets/Scenes/CouncilRoom.unity
+    guid: e24ef3f2624e6be4a89d1a107da39b36
   m_configObjects: {}

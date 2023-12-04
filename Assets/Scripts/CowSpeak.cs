@@ -14,6 +14,8 @@ public class CowSpeak : MonoBehaviour
 
     public GameObject MoodsAS;
 
+    public GameObject CowManager;
+
     GameObject[] Awakener;
 
     void Start()
@@ -37,6 +39,8 @@ public class CowSpeak : MonoBehaviour
         {
             StartCoroutine(MooZSpeak2());
             StartCoroutine(MooZIcon());
+            CowManager.SetActive(true);
+
         }
     }
 
@@ -51,6 +55,7 @@ public class CowSpeak : MonoBehaviour
         {
             StartCoroutine(MooDSpeak2());
             StartCoroutine(MooDIcon());
+            CowManager.SetActive(true);
         }
     }
 

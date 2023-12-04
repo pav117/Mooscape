@@ -10,6 +10,8 @@ TagManager:
   - InvItem
   - InvManager
   - Awakener
+  - ButtonManager
+  - CowManager
   layers:
   - Default
   - TransparentFX
