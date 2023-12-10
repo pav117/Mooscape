@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CouncilRoom.unity
     guid: e24ef3f2624e6be4a89d1a107da39b36
+  - enabled: 1
+    path: Assets/Scenes/Ending01.unity
+    guid: 1ba40e80fdede6647963c2121a0cf391
+  - enabled: 1
+    path: Assets/Scenes/Ending02.unity
+    guid: a75b0833aebfcc940b437117e5f08886
   m_configObjects: {}

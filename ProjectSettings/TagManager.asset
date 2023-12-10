@@ -12,6 +12,9 @@ TagManager:
   - Awakener
   - ButtonManager
   - CowManager
+  - Alien
+  - Ending2Trigger
+  - Wrench
   layers:
   - Default
   - TransparentFX

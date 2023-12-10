@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &21677715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 21677717}
+  - component: {fileID: 21677716}
+  m_Layer: 0
+  m_Name: Ending2Trigger
+  m_TagString: Ending2Trigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &21677716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21677715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142b9e42085350b4a90c89040b11bd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &21677717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21677715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.365266, y: 2.1411479, z: -1.0619732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &90133250
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,6 +334,8 @@ RectTransform:
   - {fileID: 1430499415}
   - {fileID: 1971569647}
   - {fileID: 1260467839}
+  - {fileID: 507557101}
+  - {fileID: 749791862}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -462,6 +508,162 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &507557100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507557101}
+  - component: {fileID: 507557103}
+  - component: {fileID: 507557102}
+  m_Layer: 5
+  m_Name: MooI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &507557101
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507557100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 102200748}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -133.5, y: 99.5}
+  m_SizeDelta: {x: 56.9971, y: 62.9975}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &507557102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507557100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 860ab310280d77b47aaa6d99c2bb4b85, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &507557103
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507557100}
+  m_CullTransparentMesh: 1
+--- !u!1 &749791861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749791862}
+  - component: {fileID: 749791864}
+  - component: {fileID: 749791863}
+  m_Layer: 5
+  m_Name: MooS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &749791862
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749791861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 102200748}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.78969, y: 94.502}
+  m_SizeDelta: {x: 201.0027, y: 53.0016}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &749791863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749791861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Get them Mooznov and Moods!
+--- !u!222 &749791864
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749791861}
+  m_CullTransparentMesh: 1
 --- !u!1 &807030464
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +676,7 @@ GameObject:
   - component: {fileID: 807030465}
   m_Layer: 0
   m_Name: Lead Council
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,7 +909,7 @@ GameObject:
   - component: {fileID: 1132747703}
   m_Layer: 0
   m_Name: Council One
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,6 +990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1258612760}
+  - component: {fileID: 1258612761}
   m_Layer: 0
   m_Name: DeathManager
   m_TagString: Untagged
@@ -810,6 +1013,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258612761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258612759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c25345006f544a9ae5cb91948b6ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ending2Trigger: {fileID: 21677715}
 --- !u!1 &1260467838
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +1038,7 @@ GameObject:
   - component: {fileID: 1260467842}
   - component: {fileID: 1260467841}
   - component: {fileID: 1260467840}
+  - component: {fileID: 1260467843}
   m_Layer: 5
   m_Name: BAlien3
   m_TagString: Untagged
@@ -892,7 +1109,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1260467841}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1260467843}
+        m_TargetAssemblyTypeName: DeactivateAlien, Assembly-CSharp
+        m_MethodName: whenButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1260467841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,6 +1160,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260467838}
   m_CullTransparentMesh: 1
+--- !u!114 &1260467843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260467838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457bc4585ecc5d48bb4d97491cd65bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alien: {fileID: 1132747702}
+  RevengeSpeak: {fileID: 749791861}
+  Icon: {fileID: 507557100}
 --- !u!1 &1395895005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +1279,7 @@ GameObject:
   - component: {fileID: 1430499418}
   - component: {fileID: 1430499417}
   - component: {fileID: 1430499416}
+  - component: {fileID: 1430499419}
   m_Layer: 5
   m_Name: BAlien1
   m_TagString: Untagged
@@ -1105,7 +1350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1430499417}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1430499419}
+        m_TargetAssemblyTypeName: DeactivateAlien, Assembly-CSharp
+        m_MethodName: whenButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1430499417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,6 +1401,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430499414}
   m_CullTransparentMesh: 1
+--- !u!114 &1430499419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430499414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457bc4585ecc5d48bb4d97491cd65bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alien: {fileID: 2082102944}
+  RevengeSpeak: {fileID: 749791861}
+  Icon: {fileID: 507557100}
 --- !u!1 &1971569646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1428,7 @@ GameObject:
   - component: {fileID: 1971569650}
   - component: {fileID: 1971569649}
   - component: {fileID: 1971569648}
+  - component: {fileID: 1971569651}
   m_Layer: 5
   m_Name: BAlien2
   m_TagString: Untagged
@@ -1226,7 +1499,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1971569649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1971569651}
+        m_TargetAssemblyTypeName: DeactivateAlien, Assembly-CSharp
+        m_MethodName: whenButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1971569649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1265,6 +1550,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971569646}
   m_CullTransparentMesh: 1
+--- !u!114 &1971569651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971569646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457bc4585ecc5d48bb4d97491cd65bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alien: {fileID: 807030464}
+  RevengeSpeak: {fileID: 749791861}
+  Icon: {fileID: 507557100}
 --- !u!1 &2082102944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,7 +1577,7 @@ GameObject:
   - component: {fileID: 2082102945}
   m_Layer: 0
   m_Name: Council 2
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
