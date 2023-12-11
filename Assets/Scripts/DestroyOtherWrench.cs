@@ -6,7 +6,7 @@ public class DestroyOtherWrench : MonoBehaviour
 {
     private GameObject OtherWrench;
 
-    void Update()
+    void Start()
     {
         OtherWrench = GameObject.FindGameObjectWithTag("Wrench");
         
